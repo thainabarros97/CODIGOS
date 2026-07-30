@@ -1,25 +1,55 @@
-# Automação de Indicadores
+# 🤖 Automação de Indicadores de Vendas
 
-## Sobre o projeto
+## 📌 Sobre o projeto
 
-Este projeto foi desenvolvido em Python com o objetivo de automatizar a atualização de indicadores.
+Este projeto foi desenvolvido em Python com o objetivo de automatizar um processo de análise de vendas.
 
-## Tecnologias utilizadas
+A automação realiza o acesso a uma base de dados, coleta informações de vendas, calcula indicadores importantes e envia um relatório automaticamente por e-mail.
+
+## 🎯 Objetivo
+
+Reduzir atividades manuais e agilizar a geração de indicadores de vendas, diminuindo o tempo gasto em tarefas repetitivas.
+
+## ⚙️ Funcionalidades
+
+- Acesso automático ao sistema utilizando PyAutoGUI;
+- Download da base de dados de vendas;
+- Leitura e análise da planilha Excel;
+- Cálculo dos indicadores:
+  - Faturamento total;
+  - Quantidade de produtos vendidos;
+- Geração automática de relatório;
+- Envio do relatório por e-mail.
+
+## 🛠️ Tecnologias utilizadas
 
 - Python
-- Pandas
 - PyAutoGUI
-- Jupyter Notebook
+- Pandas
+- Excel
+- Pyperclip
+- Visual Studio Code
 
-## Objetivo
+## 📂 Estrutura do projeto
+📁 Automacao-Indicadores
+│
+├── codigo.py
+├── Análise de Dados - Inicial.ipynb
+└── README.md
 
-Automatizar tarefas repetitivas de atualização de dados, reduzindo tempo e erros manuais.
+## 📊 Indicadores calculados
 
-## Arquivos
+O projeto realiza o cálculo de:
 
-- Análise de Dados - Inicial.ipynb
-- codigo.ipynb
+**Faturamento total**
+- Soma dos valores finais das vendas.
 
-## Autora
+**Quantidade de produtos vendidos**
+- Soma da quantidade de produtos comercializados.
 
-Thaina Barros Alves
+## 🚀 Como executar o projeto
+
+1. Instalar as bibliotecas necessárias:
+
+```bash
+pip install pyautogui pandas openpyxl pyperclip
